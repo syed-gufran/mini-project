@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+    <title>Seminar evaluator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="javascript" href="java.js">
+</head>
+<body>
+
+    <header>
+        <h1>Seminar evaluator</h1>
+    </header>
+
+    
+    <nav>
+        <div class="btn-group">
+            <a href="index.html">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a> 
+        </div>
+    </nav>
+    <hr>
+
+    <section>
+
+        
+        <div id="fert">
+            <h2>Enter your name:</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <button onclick="startCamera()">Start Camera</button>
+        </div>
+        
+    </seßction>
+
+
+<video id="video" width="640" height="480" autoplay></video>
+<canvas id="canvas"></canvas>
+
+
+<footer>
+    <p>This website is developed to obtain the actual review of the users during a seminar using facial recognition system</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
+
+

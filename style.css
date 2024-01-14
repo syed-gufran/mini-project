@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+body{
+ height: 100vh;
+ width: 100vw;
+  background-image: url("bgd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #5c5959;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav a{
+  padding: 0 2rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #96a5c5;
+}
+nav a :hover{
+  background-color: #000000;
+}
+
+.btn-group{
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  text-align: center;
+  padding-top: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+section h2{
+  padding: 1rem;
+}
+input{
+  padding: 0 1rem;
+  text-align: center;
+}
+section button{
+  margin: 1rem;
+  border: 2px solid rgb(49, 49, 49);
+  border-radius: 5px;
+}
+#qrcode{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#showDivButton {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.share-btn i{
+text-align: center;
+font-size: 2rem;
+margin: .5rem;
+}
+
+.share-btn:focus,
+.share-btn:hover {
+text-decoration: none;
+opacity: 0.7;
+}
+
+.share-btn:active {
+color: #e2e2e2;
+}
+
+
+
+#fert{
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+#video {
+    display: none;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.popup {
+  position: fixed;
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
